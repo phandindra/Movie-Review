@@ -1,0 +1,137 @@
+.movie-details {
+  padding: 20px;
+  text-align: center;
+}
+
+.movie-poster {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+footer {
+  margin-top: 40px;
+}
+
+footer form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+footer textarea {
+  resize: none;
+  height: 100px;
+  width: 100%;
+  max-width: 500px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+footer .submit {
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+footer .submit:hover {
+  background-color: #0056b3;
+}
+
+.reviews {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.reviews h4 {
+  margin-bottom: 15px;
+  font-size: 20px;
+  color: #333;
+}
+
+.reviews ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.reviews li {
+  background-color: #fff;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  font-size: 16px;
+  color: #555;
+  line-height: 1.5;
+  position: relative;
+}
+
+.reviews li:nth-child(odd) {
+  background-color: #f1f1f1;
+}
+
+.reviews li:hover {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+}
+
+.reviews button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.reviews .edit {
+  background-color: #ffc107;
+  color: #000;
+}
+
+.reviews .edit:hover {
+  background-color: #e0a800;
+}
+
+.reviews .delete {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.reviews .delete:hover {
+  background-color: #c82333;
+}
+
+.reviews p {
+  color: #777;
+  font-style: italic;
+}
+
+.no-movie-selected {
+  padding: 20px;
+  text-align: center;
+  font-size: 18px;
+  color: #555;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 50px;
+}
+
+.submit {
+  padding: 8px 16px; 
+  font-size: 14px; 
+  max-width: 120px; 
+  border-radius: 4px; 
+}

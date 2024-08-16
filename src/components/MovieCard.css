@@ -1,0 +1,41 @@
+/* MovieCard.css */
+.movie-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+     cursor: pointer;
+  }
+
+
+
+  
+  .movie-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+  }
+  
+  .movie-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .movie-card img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease; 
+}
+
+.movie-card:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2); 
+}
+
+.movie-card:hover img {
+    transform: scale(1.1);
+}
